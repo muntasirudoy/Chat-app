@@ -1,0 +1,68 @@
+body {
+  overflow: hidden;
+}
+
+/* //background color choice */
+.primary {
+  background: #841aaa !important;
+}
+
+.secondary {
+  background: rgb(0, 102, 255);
+  background: radial-gradient(
+    circle,
+    rgba(0, 102, 255, 1) 0%,
+    rgba(191, 199, 208, 1) 84%
+  );
+}
+
+.third {
+  background: #211f20 !important;
+}
+
+.fourth {
+  background: #1d1758 !important;
+}
+
+.sixth {
+  background: rgb(131, 4, 148);
+}
+
+/* //remove padding */
+.padding-0 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.error {
+  background: "red" !important;
+}
+
+/* profilePic */
+
+.profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* add hover style on ad */
+
+.addHover {
+  transition: color 0.8s ease-in-out;
+}
+.addHover:hover,
+.addHover:active {
+  color: #ffca2c;
+}
+
+/* //list-groupActive */
+
+.menu_item:hover {
+  background: #ffca2c !important;
+  cursor: pointer;
+}
+.menu_item .active {
+  background: #211f20 !important;
+}
